@@ -1,0 +1,1 @@
+# Simulaci-n-de-la-Distribuci-n-de-Temperatura-en-una-Placa-2D
