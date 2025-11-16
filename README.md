@@ -43,13 +43,17 @@ Simulacion-de-la-Distribucion-de-Temperatura-en-una-Placa-2D/
 
 Desde la carpeta `src/`:
 
+```
 gcc jacobi_secuencial.c -o jacobi
+```
 
 ---
 
 ## 4. Cómo Ejecutar
 
+```
 ./jacobi
+```
 
 
 El programa mostrará:
