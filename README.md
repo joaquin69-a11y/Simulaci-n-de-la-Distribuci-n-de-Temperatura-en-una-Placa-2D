@@ -10,7 +10,7 @@ Actualmente el repositorio contiene la **versión secuencial**, la cual será ex
 
 La ecuación del calor en estado estacionario en 2D se aproxima mediante diferencias finitas:
 
-T_{i,j}^{(k+1)} = {1}/{4} (T_{i+1,j}^{(k)} + T_{i-1,j}^{(k)} + T_{i,j+1}^{(k)} + T_{i,j-1}^{(k)})
+```T_{i,j}^{(k+1)} = (1/4) * ( T_{i+1,j}^{(k)} + T_{i-1,j}^{(k)} + T_{i,j+1}^{(k)} + T_{i,j-1}^{(k)} )```
 
 El método consiste en:
 
