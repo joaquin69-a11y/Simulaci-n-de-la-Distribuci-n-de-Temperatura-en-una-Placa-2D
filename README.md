@@ -10,14 +10,7 @@ Actualmente el repositorio contiene la **versión secuencial**, la cual será ex
 
 La ecuación del calor en estado estacionario en 2D se aproxima mediante diferencias finitas:
 
-\[
-T_{i,j}^{(k+1)} = \frac{1}{4} \left( 
-T_{i+1,j}^{(k)} +
-T_{i-1,j}^{(k)} +
-T_{i,j+1}^{(k)} +
-T_{i,j-1}^{(k)}
-\right)
-\]
+T_{i,j}^{(k+1)} = {1}/{4} (T_{i+1,j}^{(k)} + T_{i-1,j}^{(k)} + T_{i,j+1}^{(k)} + T_{i,j-1}^{(k)})
 
 El método consiste en:
 
@@ -36,3 +29,25 @@ Simulacion-de-la-Distribucion-de-Temperatura-en-una-Placa-2D/
   ->.gitignore # Ignora ejecutables, .o, build/, dist/
 
   ->README.md # Documentación del proyecto
+
+---
+
+## 3. Cómo Compilar
+
+Desde la carpeta `src/`:
+
+gcc jacobi_secuencial.c -o jacobi
+
+---
+
+## 4. Cómo Ejecutar
+
+./jacobi
+
+
+El programa mostrará:
+
+- Número de iteraciones
+- Error final
+- Tiempo de ejecución
+- Estado final de la malla
