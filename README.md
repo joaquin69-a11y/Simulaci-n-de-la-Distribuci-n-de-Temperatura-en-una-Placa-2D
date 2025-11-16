@@ -1,1 +1,31 @@
-# Simulaci-n-de-la-Distribuci-n-de-Temperatura-en-una-Placa-2D
+# Simulación de la Distribución de Temperatura en una Placa 2D  
+### Método de Jacobi — Implementación Secuencial
+
+Este proyecto implementa una simulación numérica de la distribución de temperatura en una placa bidimensional utilizando el **método iterativo de Jacobi**.  
+Actualmente el repositorio contiene la **versión secuencial**, la cual será extendida posteriormente con una versión **paralela usando MPI**.
+
+---
+
+## 1. Fundamento Teórico
+
+La ecuación del calor en estado estacionario en 2D se aproxima mediante diferencias finitas:
+
+T_{i,j}^{(k+1)} = {1/4} (T_{i+1,j}^{(k)} + T_{i-1,j}^{(k)} + T_{i,j+1}^{(k)} + T_{i,j-1}^{(k)})
+
+El método consiste en:
+
+1. Aproximar la placa como una malla 2D.  
+2. Aplicar condiciones de frontera (bordes).  
+3. Actualizar cada celda como el promedio de sus vecinos.  
+4. Repetir hasta que la diferencia entre iteraciones sea menor que una tolerancia.
+
+---
+
+## 2. Estructura del Proyecto
+Simulacion-de-la-Distribucion-de-Temperatura-en-una-Placa-2D/
+  ->src/
+    ->jacobi_secuencial.c # Implementación secuencial del método de Jacobi
+
+  ->.gitignore # Ignora ejecutables, .o, build/, dist/
+
+  ->README.md # Documentación del proyecto
