@@ -1,0 +1,7 @@
+# binarios/ejecutables
+*.exe
+*.out
+*.o
+/build/
+/dist/
+/.vscode/
