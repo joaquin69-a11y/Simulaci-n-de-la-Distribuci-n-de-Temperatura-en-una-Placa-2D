@@ -29,14 +29,12 @@ El método consiste en:
 ---
 
 ## 2. Estructura del Proyecto
-Simulacion-de-la-Distribucion-de-Temperatura-en-una-Placa-2D/
 ```
-  ->src/
-    ->jacobi_secuencial.c # Implementación secuencial del método de Jacobi
-
-  ->.gitignore # Ignora ejecutables, .o, build/, dist/
-
-  ->README.md # Documentación del proyecto
+Simulacion-de-la-Distribucion-de-Temperatura-en-una-Placa-2D/
+├── src/
+│ └── jacobi_secuencial.c # Implementación secuencial del método de Jacobi
+├── .gitignore # Ignora ejecutables, .o, build/, dist/
+└── README.md # Documentación del proyecto
 ```
 
 ---
