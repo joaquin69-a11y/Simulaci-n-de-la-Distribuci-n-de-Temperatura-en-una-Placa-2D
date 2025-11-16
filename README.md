@@ -58,3 +58,23 @@ El programa mostrará:
 - Error final
 - Tiempo de ejecución
 - Estado final de la malla
+
+Ejemplo de salida (secuencial)
+
+Comandos:
+```
+gcc src/jacobi_secuencial.c -o src/jacobi -O2
+./src/jacobi
+```
+
+Salida de ejemplo (fragmento):
+```
+Iniciando método de Jacobi 2D...
+Iteración 0, max diff = 25.000000
+Iteración 100, max diff = 0.512345
+Iteración 200, max diff = 0.030123
+Iteración 300, max diff = 0.000090
+Convergencia alcanzada en 312 iteraciones.
+Método completado.
+```
+
